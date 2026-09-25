@@ -5796,26 +5796,6 @@
 		)
 		(uuid "4405f133-da63-4b72-9886-7597880c4ba8")
 	)
-	(text_box "TODO:\ntest points\nisolation headers/jumpers\n\n\n"
-		(exclude_from_sim no)
-		(at 25.4 22.86 0)
-		(size 45.72 25.4)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "584211ed-3e2c-4456-93ce-f60492034881")
-	)
 	(text_box "bootstrap\n"
 		(exclude_from_sim no)
 		(at 199.39 129.54 0)
@@ -7504,7 +7484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0131a38e-d5fe-40d1-8f3b-6eedd01ca1b5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 39.37 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7564,7 +7544,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7582,7 +7562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "036e0e2e-fa5a-4e1a-b847-d0dc18b6fc74")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 87.63 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -7642,7 +7622,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7739,7 +7719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f05ac4-a942-4061-b401-ff859f9430d2")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 91.44 152.7174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7814,7 +7794,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7831,7 +7811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "093c2bbb-1ce7-47cf-82f7-1f63b00a22b9")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 113.03 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7892,7 +7872,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR013")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7910,7 +7890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efbbfd9-14c5-495e-b432-d71097e1f05f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR04"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7970,7 +7950,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR022")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8010,7 +7990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 266.7 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8076,7 +8056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d33c352-050d-4179-86bc-357136b791fb")
-		(property "Reference" "U8"
+		(property "Reference" "U2"
 			(at 220.5833 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8293,7 +8273,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8311,7 +8291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fc74b1f-8af5-48e0-8e79-8848445fc3b2")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 105.41 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8371,7 +8351,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8389,7 +8369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "222724e5-cd6a-4e10-9fa4-24042a03fd4f")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 195.58 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8411,7 +8391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 193.04 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +8433,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8471,7 +8451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "242600be-e4a7-46b6-9d6b-95309a48a801")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 217.17 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8531,7 +8511,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8549,7 +8529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24fe0517-e5b3-441c-9d43-a757d90ac5d9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR06"
 			(at 60.96 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8609,7 +8589,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR028")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8627,7 +8607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b289ca7-c742-4e22-a53b-86772f1b3974")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 107.95 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8649,7 +8629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.41 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8691,7 +8671,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8709,7 +8689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee2eeca-5c3f-4308-9977-1854ca3fb117")
-		(property "Reference" "R26"
+		(property "Reference" "R10"
 			(at 102.87 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8731,7 +8711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.33 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8773,7 +8753,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R26")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8790,7 +8770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "310dfe7a-3b29-4605-bdd0-d9e6b97f188f")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 78.232 159.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,7 +8849,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8887,7 +8867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3710c298-b366-42bc-9a21-b9908415f194")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR010"
 			(at 264.16 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8948,7 +8928,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR026")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382d30b9-5b1e-4f3f-a58c-45f704936e77")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR013"
 			(at 27.94 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9026,7 +9006,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR021")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9044,7 +9024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a25ed7-edba-4cfe-a147-ec5e6340b6b4")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR01"
 			(at 218.44 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9104,7 +9084,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR020")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9122,7 +9102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b206767-b0bb-470d-a497-047759aaaf32")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR015"
 			(at 93.98 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9182,7 +9162,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR030")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9200,7 +9180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3712ba-88f7-4485-9f67-23862d9be03b")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 214.63 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9222,7 +9202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 212.09 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9264,7 +9244,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9282,7 +9262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c616bf-aa4e-4b35-827e-b7aba5efcb0d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 212.09 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9342,7 +9322,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9360,7 +9340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43ca2b20-08c5-42c7-a145-f5a936772fa9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR021"
 			(at 39.37 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -9420,7 +9400,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR06")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9438,7 +9418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d77a63-c70f-4e92-be8b-ce7882f75429")
-		(property "Reference" "R27"
+		(property "Reference" "R1"
 			(at 171.45 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9460,7 +9440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 168.91 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9502,7 +9482,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R27")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9520,7 +9500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d27b1e0-f437-4d15-8d8e-bacd5944349d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR08"
 			(at 274.32 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9581,7 +9561,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR025")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9599,7 +9579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567db1fb-6439-4e62-b822-d45199addfc0")
-		(property "Reference" "R22"
+		(property "Reference" "R5"
 			(at 213.36 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9621,7 +9601,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 210.82 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9663,7 +9643,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R22")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9681,7 +9661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a8d4f5-e900-4a16-a110-39e693d7a461")
-		(property "Reference" "R31"
+		(property "Reference" "R11"
 			(at 90.17 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +9683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.63 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9745,7 +9725,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R31")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9762,7 +9742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b3a8356-9281-4ec4-93c4-666d97503360")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR012"
 			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9822,7 +9802,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR031")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9840,7 +9820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "640fe800-a365-4a00-84e6-52625ebb4aa3")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 54.61 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9860,7 +9840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 54.61 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9905,7 +9885,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9923,7 +9903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f79d72-8b48-4793-b8de-b4d62b112485")
-		(property "Reference" "R23"
+		(property "Reference" "R4"
 			(at 243.84 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9945,7 +9925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.3 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9987,7 +9967,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R23")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10005,7 +9985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66386b5b-5e5a-47ce-9f14-3b8584cfab3c")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 99.06 136.3979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +10008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 101.6 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10067,7 +10047,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10085,7 +10065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f4f77f-b292-42c5-96ca-4210bbdbdd23")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10145,7 +10125,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10163,7 +10143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a14421f-c47a-45ed-9405-191fda3322cc")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 91.44 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10234,7 +10214,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10252,7 +10232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a8ab03a-d061-4ef6-9335-3f004f32f162")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 260.35 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10316,7 +10296,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10334,7 +10314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d57257d-60c2-492c-9f3f-e4b82780b320")
-		(property "Reference" "R25"
+		(property "Reference" "R9"
 			(at 102.87 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,7 +10336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.33 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10398,7 +10378,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R25")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10415,7 +10395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7592e36d-976d-4e62-81b7-e5aa42eccbd2")
-		(property "Reference" "C11"
+		(property "Reference" "C4"
 			(at 67.31 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10437,7 +10417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10479,7 +10459,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "C11")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10496,7 +10476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77e22a47-1518-437d-8353-d7e430477616")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 113.284 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10519,7 +10499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 116.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10558,7 +10538,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10576,7 +10556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80830a1e-f2b5-4bd4-b250-20f3a64b5400")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR03"
 			(at 255.27 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10637,7 +10617,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR016")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10655,7 +10635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89433a7f-78cf-4066-9ace-9846a9e4b5c4")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 226.06 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10719,7 +10699,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10737,7 +10717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8962d84f-a522-4844-942d-b563eaa9a51e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 77.47 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10797,7 +10777,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10815,7 +10795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9001588b-7701-431f-aae0-d61e92ad8f61")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 39.37 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10922,7 +10902,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10940,7 +10920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92d7b6fd-21ee-4298-86ff-d99e7f336a48")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 276.86 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10962,7 +10942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
 			(at 275.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11022,7 +11002,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11040,7 +11020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9678c858-9ed5-43c1-8ec8-fa2f49318aec")
-		(property "Reference" "C14"
+		(property "Reference" "C2"
 			(at 205.74 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11062,7 +11042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 203.2 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11104,7 +11084,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "C14")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11122,7 +11102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98106e0b-b89f-4718-a520-b4c4450f8359")
-		(property "Reference" "R30"
+		(property "Reference" "R3"
 			(at 30.48 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11144,7 +11124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 27.94 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11186,7 +11166,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R30")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11224,7 +11204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 69.85 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11285,7 +11265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9f415bc-7dc2-41ad-944a-7ca2e4d64115")
-		(property "Reference" "U12"
+		(property "Reference" "U3"
 			(at 68.58 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11305,7 +11285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0168_T822+3_MXM"
+		(property "Footprint" "MAX17048:21-0168_T822&plus_3_MXM-M"
 			(at 88.9 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11370,7 +11350,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "U12")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11388,7 +11368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad5eb56f-19bb-40e9-93cb-a82fef6d2883")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 64.77 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11410,7 +11390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 62.23 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11452,7 +11432,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11470,7 +11450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1876b1d-637d-4fda-a15d-8a46a2e89dd7")
-		(property "Reference" "R24"
+		(property "Reference" "R6"
 			(at 102.87 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11492,7 +11472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.33 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11534,7 +11514,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R24")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11552,7 +11532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4073784-c285-47ea-87b3-6439bff724c2")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 213.36 149.8662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11574,7 +11554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 210.82 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11616,7 +11596,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11633,7 +11613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b58aaba8-a266-4b9b-8904-f9cbfbf829f4")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR05"
 			(at 39.37 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11693,7 +11673,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR012")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11711,7 +11691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8315b6-8fc7-4fea-b328-7d6416be7633")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 210.82 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11771,7 +11751,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11789,7 +11769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d6fc39-ae5f-4f3a-ad3a-c9756c825f9a")
-		(property "Reference" "R28"
+		(property "Reference" "R2"
 			(at 181.61 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11811,7 +11791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.07 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11853,7 +11833,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R28")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11870,7 +11850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c91cf792-30e2-42fc-9be6-31de00f88d2d")
-		(property "Reference" "C15"
+		(property "Reference" "C6"
 			(at 94.996 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11890,7 +11870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11932,7 +11912,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "C15")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11950,7 +11930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7462d5d-5eb0-4cca-8af2-6987140f4811")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR014"
 			(at 39.37 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12011,7 +11991,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR032")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12029,7 +12009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd08d07e-484a-4e77-bded-9c9015412f0a")
-		(property "Reference" "Q6"
+		(property "Reference" "Q1"
 			(at 273.05 66.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12096,7 +12076,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "Q6")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12114,7 +12094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f06a3a15-8749-4ad6-98eb-793a26df9036")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR011"
 			(at 91.44 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12174,7 +12154,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "#PWR017")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12192,7 +12172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffe49dcd-6832-40b5-bc82-1664bf5f50f4")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 72.39 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12214,7 +12194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 69.85 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12256,7 +12236,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
