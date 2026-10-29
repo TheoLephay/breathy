@@ -1105,17 +1105,6 @@
 		)
 		(uuid "4f13a614-7351-4460-8700-2b2b51ba5de9")
 	)
-	(hierarchical_label "3V_SENS"
-		(shape input)
-		(at 100.33 91.44 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e469212-e9c9-4db3-81aa-9a1ddaedcd7b")
-	)
 	(hierarchical_label "1w"
 		(shape input)
 		(at 87.63 99.06 180)
@@ -1552,6 +1541,84 @@
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/b22c8a24-e204-45bc-8b3b-514f2bbf507e"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V0")
+		(at 100.33 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c57fdf21-4bea-40b3-aca4-5e9c4de4896a")
+		(property "Reference" "#PWR033"
+			(at 100.33 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V0"
+			(at 100.33 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 100.33 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5e9f631-9967-4ed8-be9c-dedb1e171a75")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/b22c8a24-e204-45bc-8b3b-514f2bbf507e"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)

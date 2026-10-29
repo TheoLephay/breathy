@@ -2280,310 +2280,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q6"
-				(at 6.35 1.2701 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS"
-				(at 6.35 -1.2699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PMOS P-MOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -5756,9 +5452,9 @@
 		)
 		(uuid "2b6e1d45-6887-4ede-9b61-a15c8afaaf96")
 	)
-	(text "test epd true consumption w&w/o LDO"
+	(text "TODO: stop charge from MCU\nthermistor"
 		(exclude_from_sim no)
-		(at 296.672 68.072 0)
+		(at 154.94 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5776,7 +5472,7 @@
 		)
 		(uuid "cf970e41-b539-479f-bb20-fa35d1efc45b")
 	)
-	(text_box "Supply requirements:\nBME290: 1.71 - 3.6 typ 1.8V, ripple <50mVpp. Peak 20mA. 110nA sleep\nESP32C3 3.0-3.6V, 300mA peak\nDS18B20 2.5-5.5V 1u - 1m\nSHT40   1-3.6V, peak 10-100mA\ne-paper 3.3V, 30uA - 10uA\n\n\ntgt budget 100uA sleep\n10uA MCU\n50uA LDO\nsensor & display: 0 because turned off"
+	(text_box "Supply requirements:\nBME290: 1.71 - 3.6 typ 1.8V, ripple <50mVpp. Peak 20mA. 110nA sleep\nESP32C3 3.0-3.6V, 300mA peak, 7uA\nDS18B20 2.5-5.5V 1u - 1m\nSHT40   1-3.6V, peak 10-100mA\ne-paper 3.3V, 7uA - 25mA\n\n\ntgt budget 100uA sleep\n35uA MCU light sleep\n50uA LDO\n"
 		(exclude_from_sim no)
 		(at 92.71 20.32 0)
 		(size 74.93 26.4392)
@@ -5955,16 +5651,16 @@
 		(uuid "84c84432-97e4-4447-aadf-1ec42cc60499")
 	)
 	(junction
+		(at 168.91 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dbf4136-173e-4458-baa2-b35793e23ecc")
+	)
+	(junction
 		(at 77.47 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eb55c23-c970-4258-a0d6-5733cdcc8041")
-	)
-	(junction
-		(at 179.07 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a05c3102-20b6-4cb1-8756-7f1979411ac3")
 	)
 	(junction
 		(at 87.63 179.07)
@@ -5979,16 +5675,16 @@
 		(uuid "b3df162e-1e27-4032-ba9e-d9c042211145")
 	)
 	(junction
+		(at 168.91 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b561b0c4-ac40-4d98-a13b-aa07735cd4ae")
+	)
+	(junction
 		(at 78.74 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5ecaeb8-de15-4f02-809c-823b5a06e8a2")
-	)
-	(junction
-		(at 168.91 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf69c307-5c2a-4f46-a523-025b0f18359b")
 	)
 	(junction
 		(at 203.2 40.64)
@@ -6013,6 +5709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f71f928f-05a7-49f1-b716-42f203233183")
+	)
+	(junction
+		(at 179.07 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff40a4cc-c43f-4225-ac5b-00d1b50645b1")
 	)
 	(no_connect
 		(at 190.5 62.23)
@@ -6201,6 +5903,16 @@
 			(type default)
 		)
 		(uuid "1ed2b579-4bbd-40e7-b363-f7868fc8e1ad")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b2ebf4-2ba4-4178-92f5-4796ca0f6496")
 	)
 	(wire
 		(pts
@@ -7024,7 +6736,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 168.91 77.47)
+			(xy 146.05 77.47) (xy 168.91 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7051,6 +6763,16 @@
 			(type default)
 		)
 		(uuid "e35502e6-bfe9-4c44-ba4c-f3d650097b11")
+	)
+	(wire
+		(pts
+			(xy 160.02 71.12) (xy 160.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb54ce11-2f9e-4688-95e5-3f8af416a341")
 	)
 	(wire
 		(pts
@@ -7084,7 +6806,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 82.55) (xy 158.75 82.55)
+			(xy 146.05 82.55) (xy 160.02 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7124,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 74.93) (xy 179.07 74.93)
+			(xy 146.05 74.93) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7193,7 +6915,7 @@
 		(uuid "2430bf32-28bc-485a-9bc5-8754da61cb5c")
 	)
 	(label "i2c_sda"
-		(at 158.75 74.93 0)
+		(at 151.13 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7292,7 +7014,7 @@
 		)
 		(uuid "8dbdc027-0f5e-47f8-99b9-44397716351a")
 	)
-	(label "D+"
+	(label "D-"
 		(at 55.88 153.67 0)
 		(effects
 			(font
@@ -7300,17 +7022,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9660322b-2a1a-4ea1-b2d7-7cccbda57781")
-	)
-	(label "D-"
-		(at 55.88 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9dab2554-cfd2-4e6b-81f8-c5c4db2264d2")
+		(uuid "a64d9f09-7994-43a6-a5e3-2d63ae9398e4")
 	)
 	(label "gpio8_pu"
 		(at 246.38 69.85 0)
@@ -7363,7 +7075,7 @@
 		(uuid "bc0c39af-5cba-4701-8d06-61499ba76222")
 	)
 	(label "i2c_scl"
-		(at 158.75 77.47 0)
+		(at 151.13 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7373,7 +7085,7 @@
 		(uuid "bd714ede-4aba-435d-ab3f-903ffb22996a")
 	)
 	(label "1w"
-		(at 158.75 82.55 0)
+		(at 151.13 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7451,6 +7163,16 @@
 			(justify left bottom)
 		)
 		(uuid "ee2b5257-2bae-4ea7-8352-6994a4f6658c")
+	)
+	(label "D+"
+		(at 55.88 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eebce3cf-d5a2-4186-9990-65fb74ba8616")
 	)
 	(label "gpio9_dl"
 		(at 246.38 72.39 0)
@@ -11759,6 +11481,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 160.02 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c77dba89-93d0-4ca3-929f-dbdb72cb6965")
+		(property "Reference" "R32"
+			(at 162.56 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 162.56 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7cac723-c5e0-4035-8e52-221851869c9c")
+		)
+		(pin "1"
+			(uuid "c0d2c14f-5b5a-480f-ba2d-d6e75a82a2aa")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 179.07 68.58 180)
 		(unit 1)
 		(body_style 1)
@@ -11992,91 +11796,6 @@
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PMOS")
-		(at 266.7 64.77 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd08d07e-484a-4e77-bded-9c9015412f0a")
-		(property "Reference" "Q1"
-			(at 273.05 66.0401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SL2301S"
-			(at 273.05 63.5001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 271.78 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor"
-			(at 266.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f277d436-6341-4912-8daf-2f6220d1a852")
-		)
-		(pin "1"
-			(uuid "442d254b-44cc-4f62-ae5c-c5a72efa41b2")
-		)
-		(pin "2"
-			(uuid "76e9de32-1605-424b-b017-6f0678de36d0")
-		)
-		(instances
-			(project "breathy"
-				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12386,7 +12105,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 69.85)
+		(at 130.81 69.85)
 		(size 15.24 15.875)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12402,7 +12121,7 @@
 		)
 		(uuid "b22c8a24-e204-45bc-8b3b-514f2bbf507e")
 		(property "Sheetname" "sensors"
-			(at 139.7 69.1384 0)
+			(at 130.81 69.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12413,7 +12132,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 139.7 86.3096 0)
+			(at 130.81 86.3096 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12425,7 +12144,7 @@
 			)
 		)
 		(pin "i2c_scl" input
-			(at 154.94 77.47 0)
+			(at 146.05 77.47 0)
 			(uuid "ff8a57e0-6742-4971-87f9-7b77ec151b5c")
 			(effects
 				(font
@@ -12435,7 +12154,7 @@
 			)
 		)
 		(pin "i2c_sda" input
-			(at 154.94 74.93 0)
+			(at 146.05 74.93 0)
 			(uuid "d771f265-069c-4316-97c1-48e80339deb1")
 			(effects
 				(font
@@ -12445,7 +12164,7 @@
 			)
 		)
 		(pin "1w" input
-			(at 154.94 82.55 0)
+			(at 146.05 82.55 0)
 			(uuid "1381c5d7-7159-4416-8c1f-bb31926efcd1")
 			(effects
 				(font
