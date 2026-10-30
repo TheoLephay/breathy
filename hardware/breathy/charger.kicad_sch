@@ -4067,7 +4067,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 62.23) (xy 248.92 62.23)
+			(xy 26.67 38.1) (xy 24.13 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5076,12 +5076,12 @@
 		(uuid "ff5ed56e-5f42-4dca-97bc-903f1234a485")
 	)
 	(label "chrg_end_n"
-		(at 246.38 62.23 180)
+		(at 26.67 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0b6b6ff9-2bd4-4490-b317-c6db403475f9")
 	)
@@ -5239,12 +5239,12 @@
 	)
 	(hierarchical_label "chrg_end_n"
 		(shape input)
-		(at 248.92 62.23 0)
+		(at 24.13 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8f2f3bc6-caeb-4deb-9f12-541d179e7867")
 	)
@@ -8646,85 +8646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 55.88 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "92939bb6-d27c-4ab3-b014-34eae8b42bc1")
-		(property "Reference" "R24"
-			(at 51.562 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 53.34 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 55.88 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 55.88 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a3162b6e-95a0-4dcc-9071-6153caa88e87")
-		)
-		(pin "1"
-			(uuid "e127e2a3-d9d7-407f-9f20-56cd1d0355f9")
-		)
-		(instances
-			(project "breathy"
-				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
 		(at 194.31 95.25 90)
 		(unit 1)
@@ -10327,6 +10248,88 @@
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 55.88 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcc2abe8-7b75-468a-883e-ed8dc734765b")
+		(property "Reference" "R24"
+			(at 58.42 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 58.42 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 55.88 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 55.88 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f4e9899-4a30-4531-a952-3c0ecad26140")
+		)
+		(pin "1"
+			(uuid "68df9265-d805-4b01-bc8f-0013ca9c36ac")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
+					(reference "R24")
 					(unit 1)
 				)
 			)
