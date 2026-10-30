@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "breathy")(type "KiCad")(uri "${KIPRJMOD}/breathy.kicad_sym")(options "")(descr "Project symbols"))
+)
