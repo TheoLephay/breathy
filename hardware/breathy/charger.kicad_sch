@@ -2929,6 +2929,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3047,7 +3348,7 @@
 	)
 	(text "___\n_________\n|       |\n|       |\n|Battery|\n|       |\n|       |\n_________\nGND"
 		(exclude_from_sim no)
-		(at 196.088 115.824 0)
+		(at 207.264 136.144 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3064,6 +3365,17 @@
 			)
 		)
 		(uuid "44724f55-d214-4e2c-9de3-4e12c5d55857")
+	)
+	(text "Reverse-current block: Q9 conducts while charging (chrg_end_n high),\nopen when USB is unplugged or after end of charge. U6A senses chrg_out."
+		(exclude_from_sim no)
+		(at 157.226 152.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9856814c-88aa-402f-9cfd-99b27a7603ee")
 	)
 	(text "add 10k/1n for improved stability"
 		(exclude_from_sim no)
@@ -3280,6 +3592,12 @@
 		(uuid "86976a81-9bb8-4147-a683-b73fbdd0909c")
 	)
 	(junction
+		(at 196.85 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92bc2bb2-cc4c-4e18-b18f-296e385d1909")
+	)
+	(junction
 		(at 171.45 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3370,6 +3688,12 @@
 		(uuid "e644f260-27ea-4189-bacc-a878f2527114")
 	)
 	(junction
+		(at 184.15 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea28bcad-1e7b-46a5-a0c7-87d27aa45043")
+	)
+	(junction
 		(at 269.24 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3450,6 +3774,16 @@
 			(type default)
 		)
 		(uuid "0eb059f7-9276-4e63-97e5-fbda6a1faef4")
+	)
+	(wire
+		(pts
+			(xy 173.99 137.16) (xy 173.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1426603b-8abd-4e7d-b30c-22fe6f24c10f")
 	)
 	(wire
 		(pts
@@ -3593,6 +3927,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 132.08) (xy 163.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b6caa8-306e-4ae2-931a-6fb7e4545d2a")
+	)
+	(wire
+		(pts
 			(xy 86.36 120.65) (xy 87.63 120.65)
 		)
 		(stroke
@@ -3693,6 +4037,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 125.73) (xy 196.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488aa9ea-7962-454e-a8ce-1a95b2a828a7")
+	)
+	(wire
+		(pts
 			(xy 182.88 93.98) (xy 182.88 95.25)
 		)
 		(stroke
@@ -3760,6 +4114,16 @@
 			(type default)
 		)
 		(uuid "4e14051d-7b74-4397-804e-fa7cd6d98ef3")
+	)
+	(wire
+		(pts
+			(xy 184.15 123.19) (xy 184.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8f7dfb-cae2-4962-bf11-ac57f9fcb308")
 	)
 	(wire
 		(pts
@@ -3983,6 +4347,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 125.73) (xy 204.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a20276b-fe26-46ca-b56c-dc744577ed4d")
+	)
+	(wire
+		(pts
 			(xy 182.88 71.12) (xy 196.85 71.12)
 		)
 		(stroke
@@ -4093,6 +4467,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 120.65) (xy 196.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c915925-44cd-4418-944f-b292d528b18c")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910dcc0e-05dd-4a9a-aef2-d5d280ddf8fc")
+	)
+	(wire
+		(pts
 			(xy 82.55 171.45) (xy 82.55 173.99)
 		)
 		(stroke
@@ -4183,6 +4577,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 115.57) (xy 184.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1118ec3-11f0-4f40-a7e9-706de3aa49ff")
+	)
+	(wire
+		(pts
 			(xy 64.77 182.88) (xy 97.79 182.88)
 		)
 		(stroke
@@ -4190,6 +4594,16 @@
 			(type default)
 		)
 		(uuid "a84443ce-e897-4581-841e-0a2141bbbf39")
+	)
+	(wire
+		(pts
+			(xy 184.15 115.57) (xy 189.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad30585e-2b5e-44b2-aa2f-30347c84d4d3")
 	)
 	(wire
 		(pts
@@ -4350,6 +4764,16 @@
 			(type default)
 		)
 		(uuid "bee09138-9d22-4065-835d-7d33c6607e1a")
+	)
+	(wire
+		(pts
+			(xy 196.85 97.79) (xy 196.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c9d032-12f2-4399-b57d-941c8a67622c")
 	)
 	(wire
 		(pts
@@ -4553,6 +4977,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 115.57) (xy 184.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ab4a49-585c-42af-86c1-cb7f3b04db0c")
+	)
+	(wire
+		(pts
 			(xy 171.45 93.98) (xy 182.88 93.98)
 		)
 		(stroke
@@ -4570,16 +5004,6 @@
 			(type default)
 		)
 		(uuid "ebb2ff9c-c0ff-4c5d-b442-29ae4f4692dd")
-	)
-	(wire
-		(pts
-			(xy 196.85 97.79) (xy 196.85 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4a5693-67e9-4512-b07e-b75746ab668b")
 	)
 	(wire
 		(pts
@@ -4711,6 +5135,16 @@
 		)
 		(uuid "79f883cf-dbac-4bc3-aad2-54342938fe09")
 	)
+	(label "chrg_out"
+		(at 66.04 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86cf10cd-2dc6-4cfc-a63f-beb8771f4b35")
+	)
 	(label "V_shunt"
 		(at 52.07 85.09 180)
 		(effects
@@ -4761,6 +5195,26 @@
 		)
 		(uuid "e62ae962-5708-4b66-84cc-685ebc169160")
 	)
+	(label "chrg_end_n"
+		(at 163.83 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6a2dc1d-27bb-49b7-bd0b-3bb6103d3dea")
+	)
+	(label "chrg_out"
+		(at 196.85 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eca0f856-8d04-4d93-941f-a68839212172")
+	)
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 252.73 88.9 90)
@@ -4782,17 +5236,6 @@
 			(justify left)
 		)
 		(uuid "537fbd41-703c-4f69-a849-a8781a6b2a8d")
-	)
-	(hierarchical_label "Vbat"
-		(shape input)
-		(at 66.04 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86cf10cd-2dc6-4cfc-a63f-beb8771f4b35")
 	)
 	(hierarchical_label "chrg_end_n"
 		(shape input)
@@ -4829,14 +5272,14 @@
 	)
 	(hierarchical_label "Vbat"
 		(shape input)
-		(at 196.85 104.14 180)
+		(at 204.47 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "eca0f856-8d04-4d93-941f-a68839212172")
+		(uuid "de3061b0-714e-44c4-88b7-720e66f0b94c")
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
@@ -5108,6 +5551,168 @@
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
 					(reference "U5")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "143c3eb5-e404-432d-a65f-a069e24b93f1")
+		(property "Reference" "#PWR034"
+			(at 173.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6764244-2fce-42f4-9f77-b1711020ee8c")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 194.31 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a3735c0-efad-412d-ae8f-f5c248f8d764")
+		(property "Reference" "Q9"
+			(at 199.39 113.665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMG3415U-7"
+			(at 199.39 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 194.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG3415U.pdf"
+			(at 194.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET 20V 4A, reverse-current block between charger and battery"
+			(at 194.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b7566ba-74a1-4b58-ae19-bd45fac5c614")
+		)
+		(pin "2"
+			(uuid "0a9f35a4-b19a-46a3-acee-c1933b704f88")
+		)
+		(pin "3"
+			(uuid "2b2af8da-2198-47af-bd10-c798fa7ff7f6")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
+					(reference "Q9")
+					(unit 1)
 				)
 			)
 		)
@@ -6649,6 +7254,87 @@
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.15 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cc25408-bada-4a1f-80ae-3aae5965ce41")
+		(property "Reference" "R33"
+			(at 186.69 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 186.69 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63168571-baab-4e12-92d1-a67a26e95ec6")
+		)
+		(pin "2"
+			(uuid "b701e5c6-401e-47e9-827a-070e4770d552")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8455,6 +9141,165 @@
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PMV37ENEAR:PMV37ENEAR")
+		(at 166.37 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb45e78-0ed8-4161-8e6e-bef169ae7d07")
+		(property "Reference" "Q10"
+			(at 177.8 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMV37ENEAR"
+			(at 177.8 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PMV37ENEAR:SOT95P230X110-3N"
+			(at 177.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV37ENEA.pdf"
+			(at 177.8 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "MOSFET 60V N-CHANNEL"
+			(at 166.37 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "MOSFET 60V N-CHANNEL"
+			(at 177.8 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" "1.1"
+			(at 177.8 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" "771-PMV37ENEAR"
+			(at 177.8 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMV37ENEAR?qs=T3oQrply3y%2Frl%252BtsBfD26A%3D%3D"
+			(at 177.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 177.8 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PMV37ENEAR"
+			(at 177.8 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3e16440f-e027-468c-a290-fdad37d3ff0a")
+		)
+		(pin "3"
+			(uuid "e99f634f-d3f7-4ddd-984b-4c67d6bfb6d1")
+		)
+		(pin "2"
+			(uuid "30a71572-42bd-4cde-b390-ffd4430dbe40")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
+					(reference "Q10")
 					(unit 1)
 				)
 			)

@@ -5452,16 +5452,6 @@
 		)
 		(uuid "2b6e1d45-6887-4ede-9b61-a15c8afaaf96")
 	)
-	(text "TODO: stop charge from MCU\nthermistor"
-		(exclude_from_sim no)
-		(at 154.94 55.372 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5926575-5a3c-47dc-9fd4-d4a47f78b712")
-	)
 	(text "addr 0x36"
 		(exclude_from_sim no)
 		(at 67.564 99.314 0)
