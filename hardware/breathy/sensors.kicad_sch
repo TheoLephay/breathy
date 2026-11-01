@@ -675,7 +675,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V0"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -700,7 +700,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V0"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -732,7 +732,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -754,7 +754,7 @@
 					)
 				)
 			)
-			(symbol "+3V0_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -792,7 +792,7 @@
 					)
 				)
 			)
-			(symbol "+3V0_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1139,7 +1139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14b64009-669a-4541-b045-6db83f24adb0")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 100.33 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1199,7 +1199,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/b22c8a24-e204-45bc-8b3b-514f2bbf507e"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1317,7 +1317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "561a6313-2c9b-4f06-aa67-6b8d54cfd5f2")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 106.68 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -1377,7 +1377,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/b22c8a24-e204-45bc-8b3b-514f2bbf507e"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1469,7 +1469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 101.6 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -1480,7 +1480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c23acb-421c-4975-b38f-99743611a2ef")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1491,7 +1491,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 101.6 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1523,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 101.6 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -1540,14 +1540,14 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/b22c8a24-e204-45bc-8b3b-514f2bbf507e"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 100.33 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -1558,7 +1558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c57fdf21-4bea-40b3-aca4-5e9c4de4896a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 100.33 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1569,7 +1569,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 100.33 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1601,7 +1601,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 100.33 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1618,7 +1618,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/b22c8a24-e204-45bc-8b3b-514f2bbf507e"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1718,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7f99f2d-8e96-4c90-af47-dd819d159489")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1778,7 +1778,7 @@
 		(instances
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/b22c8a24-e204-45bc-8b3b-514f2bbf507e"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
