@@ -2,3 +2,5 @@
 *.log
 *.raw
 *.lck
+*.kicad_prl
+hardware/breathy/production/gerbers/*

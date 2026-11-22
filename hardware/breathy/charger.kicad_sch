@@ -5374,6 +5374,88 @@
 		(uuid "f8ce7929-f061-4578-8d81-8db6b0ec56ac")
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.15 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a683a4-b522-459d-ac30-5edaafea3273")
+		(property "Reference" "R28"
+			(at 186.69 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 186.69 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1a6ff81-a2bf-4a2b-8fa2-433c123bf403")
+		)
+		(pin "1"
+			(uuid "769991f7-8339-4385-ab8a-aef48fb7265b")
+		)
+		(instances
+			(project "breathy"
+				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Reference_Voltage:TL431DBZ")
 		(at 46.99 46.99 90)
 		(unit 1)
@@ -7413,87 +7495,6 @@
 			(project "breathy"
 				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 184.15 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cc25408-bada-4a1f-80ae-3aae5965ce41")
-		(property "Reference" "R28"
-			(at 186.69 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 186.69 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 184.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 184.15 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63168571-baab-4e12-92d1-a67a26e95ec6")
-		)
-		(pin "2"
-			(uuid "b701e5c6-401e-47e9-827a-070e4770d552")
-		)
-		(instances
-			(project "breathy"
-				(path "/b1c49805-8a08-4cdd-9984-c6cc27843db8/68651c48-6140-49a1-ad7f-1b7844794d07"
-					(reference "R28")
 					(unit 1)
 				)
 			)
